@@ -1,0 +1,118 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+     background: rgba(0,0,0, .5);
+     display: none;
+
+}
+
+.modal-window {
+    width: 25%;
+    height: 60%;
+    background: rgb(240,244,252);
+    margin: 5% auto;
+}
+.header {
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.modal-close{
+    border: 0px solid;
+    background:white;
+    width: 10%;
+    height: 55%;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.modal-sistems {
+    padding-top: 10%;
+    padding-left: 8%;
+    font-family:"Manrope";
+    font-size: 15px;
+    font-weight: 300;
+    text-shadow:   0 1px 4px  black;
+}
+li { list-style-type: none;
+    font-family:"Manrope";
+    color: rgb(41,75,138);
+    font-size: 15px;
+    
+   
+}
+.email {
+    background: rgb(215,226,246);
+    width: 80%;
+    font-family:"Manrope";
+    color: rgb(41,75,138);
+    border: 0px solid;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    margin-top:5%;
+    padding: 6%;
+}
+.password {
+    background: rgb(215,226,246);
+    width: 80%;
+    font-family:"Manrope";
+    color: rgb(41,75,138);
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 6%;
+}
+.check {
+    margin-top: 5%;
+}
+.vos {
+    margin-top: 5%;
+    margin-left: 1%;;
+}
+.text-vos {
+    text-decoration: none;
+    color:rgb(41,75,138) ;
+}
+.bth1 {
+    width: 93%;
+    font-family:"Manrope";
+    color: rgb(239, 239, 239);
+    margin-bottom: 1%;
+    margin-top:10%;
+    padding: 3%;
+    border-radius: 5px;
+    border: 0px solid;
+    background: rgb(36,76,152);
+    font-size: 15px;
+}
+.bth2 {
+    width: 93%;
+    font-family:"Manrope";
+    color: rgb(41,75,138);
+    margin-bottom: 1%;
+    border-radius: 5px;
+    border: 1px solid rgb(41,75,138) ;
+    padding: 3%;
+    font-size: 15px;
+    background: rgb(235,240,250);
+
+}
+.body {
+   padding-left:5%;
+}
+@media(max-width: 751px) {
+.modal-window {
+    width: 50%;
+}}
+@media(max-width: 768px) {
+    .modal-window {
+        width: 70%;
+        height: 90%;
+    }}

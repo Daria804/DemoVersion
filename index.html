@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoVersion</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="modal.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="block-one">
+        <div class="block-two">
+            <p class="demo">Демо-версия</p>
+            <p class="desk">За 18 лет деятельности было реализовано более 500 крупных,
+                а так же, не менее 2500 средних и малых проектов.
+                Используя знания и накопленный опыт мы можем предложить </p>
+            <button class="bth" id="bth" onclick="show()">
+                <div class="block">
+                    <div class="text-bth">Попробовать бесплатно</div>
+                    <div><img src="image/Frame 1141.png" alt="стрелка" class="image-one"></div>
+                </div>
+            </button>
+        </div>
+        <div class="block-three">
+            <img src="image/image 15.png" alt="компьютер" class="img-two">
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-window">
+            <div class="header">
+                <span class="modal-sistems">Войти в систему</span>
+                <button class="modal-close" id="butt" onclick="hide()">&times;</button>
+            </div>
+            <div class="body">
+                <ul class="ul-body">
+                    <li><input type="text" value="Email/Телефон" class="email"></li>
+                    <li><input type="text" value="Пароль" class="password"></li>
+                    <li><input type="checkbox" value="" class="check">Запомнить пароль</li>
+                    <li class="vos"><a href="" class="text-vos">Восстановить</a></li>
+                    <li><button class="bth1">Войти</button></li>
+                    <li><button class="bth2">Зарегистрироваться</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
